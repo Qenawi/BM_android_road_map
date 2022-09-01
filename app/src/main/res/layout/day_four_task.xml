@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+  <!-- container one -->
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:layout_weight="1"
+      android:weightSum="3"
+      android:layout_height="0dp">
+    <Button
+        android:layout_width="0dp"
+        android:text="1X1"
+        android:backgroundTint="@color/green"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:text="2X1"
+        android:backgroundTint="@color/orange"
+        android:layout_height="match_parent"/>
+
+  </androidx.appcompat.widget.LinearLayoutCompat>
+  <!-- container two -->
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:background="@color/red_dark"
+      android:layout_weight="1"
+      android:weightSum="3"
+      android:layout_height="0dp">
+    <Button
+        android:layout_width="0dp"
+        android:text="1.5X1"
+        android:backgroundTint="@color/blue"
+        android:layout_weight="1.5"
+        android:layout_height="match_parent"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:text="1.5X1"
+        android:backgroundTint="@color/teal_700"
+        android:layout_height="match_parent"/>
+  </androidx.appcompat.widget.LinearLayoutCompat>
+
+  <!-- container three -->
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:background="@color/blue_color_19"
+      android:layout_weight="2"
+      android:weightSum="3"
+      android:layout_height="0dp">
+    <!-- container three right -->
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+      <Button
+          android:layout_width="match_parent"
+          android:layout_weight="1"
+          android:text="2X1"
+          android:backgroundTint="@color/orange"
+          android:layout_height="0dp"/>
+
+      <androidx.appcompat.widget.LinearLayoutCompat
+          android:layout_width="match_parent"
+          android:background="@color/red_dark"
+          android:layout_weight="1"
+          android:weightSum="2"
+          android:layout_height="0dp">
+        <Button
+            android:layout_width="0dp"
+            android:text="1X1"
+            android:backgroundTint="@color/blue"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="1X1"
+            android:backgroundTint="@color/orange"
+            android:layout_height="match_parent"/>
+      </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+    </LinearLayout>
+
+    <!-- container three left -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+      <Button
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:text="1X2"
+          android:backgroundTint="@color/green"
+          android:layout_height="match_parent"/>
+    </LinearLayout>
+
+  </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,5 +1,7 @@
 package com.example.android_internship_program.week_one.day_2
 
+import android.content.Intent
+
 /*
 
 intro :
@@ -76,6 +78,8 @@ class Lion : Animal(name = "Lion", food = "Meat"), Owner {
 }
 
 fun main() {
+  val intent = Intent()
+
   val cat = Animal(name = "cat", food = "tuna")
   cat.showMeAnimalInfo()
   cat.canAttack()

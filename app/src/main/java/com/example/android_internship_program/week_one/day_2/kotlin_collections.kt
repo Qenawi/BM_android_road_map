@@ -2,6 +2,7 @@ package com.example.android_internship_program.week_one.day_2
 
 /*
 intro :
+
 # Array is the simplest Kotlin collection. Here are some points to keep in mind about
     It stores objects of the same type together and has a fixed size.
     It’s a static collection.
@@ -45,6 +46,7 @@ reference : https://www.raywenderlich.com/4131729-kotlin-collections-getting-sta
 
 
 fun main() {
+  val 
   val arrayOfNumbers = arrayOf(1, 2, 3)
   arrayOfNumbers.forEach { number -> println(number) }
 
