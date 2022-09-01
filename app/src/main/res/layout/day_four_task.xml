@@ -30,7 +30,6 @@
   <!-- container two -->
   <androidx.appcompat.widget.LinearLayoutCompat
       android:layout_width="match_parent"
-      android:background="@color/red_dark"
       android:layout_weight="1"
       android:weightSum="3"
       android:layout_height="0dp">
@@ -51,7 +50,6 @@
   <!-- container three -->
   <androidx.appcompat.widget.LinearLayoutCompat
       android:layout_width="match_parent"
-      android:background="@color/blue_color_19"
       android:layout_weight="2"
       android:weightSum="3"
       android:layout_height="0dp">
@@ -72,7 +70,6 @@
 
       <androidx.appcompat.widget.LinearLayoutCompat
           android:layout_width="match_parent"
-          android:background="@color/red_dark"
           android:layout_weight="1"
           android:weightSum="2"
           android:layout_height="0dp">
