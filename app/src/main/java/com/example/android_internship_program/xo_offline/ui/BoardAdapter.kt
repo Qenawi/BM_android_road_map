@@ -10,6 +10,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.android_internship_program.R
 import com.example.android_internship_program.xo_offline.data.BoardItem
 
+
+/*
+https://www.raywenderlich.com/21954410-speed-up-your-android-recyclerview-using-diffutil#toc-anchor-007
+ */
+
 class BoardAdapter(val onCellClick: (p1:BoardItem, p2:Int) -> Unit = {p1,p2->}) : ListAdapter<BoardItem, BoardAdapter.BoardCellViewHolder>(DiffCallback()){
   override fun onCreateViewHolder(
     parent: ViewGroup,
