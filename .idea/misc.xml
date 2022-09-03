@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2954253954681488" />
         <entry key="app/src/main/res/layout/day_four_task.xml" value="0.27291666666666664" />
+        <entry key="app/src/main/res/layout/score_board_cell.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/tic_tac_board.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/tic_tac_cell.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/tic_tac_offline_fragment.xml" value="0.33" />
       </map>
     </option>
   </component>

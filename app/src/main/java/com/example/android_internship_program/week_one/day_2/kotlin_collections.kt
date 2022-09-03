@@ -46,7 +46,6 @@ reference : https://www.raywenderlich.com/4131729-kotlin-collections-getting-sta
 
 
 fun main() {
-  val 
   val arrayOfNumbers = arrayOf(1, 2, 3)
   arrayOfNumbers.forEach { number -> println(number) }
 
