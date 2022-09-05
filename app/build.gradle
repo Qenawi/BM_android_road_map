@@ -2,6 +2,7 @@ plugins {
   id 'com.android.application'
   id 'org.jetbrains.kotlin.android'
   id 'com.google.gms.google-services'
+  id 'androidx.navigation.safeargs.kotlin'
 }
 
 android {
@@ -46,5 +47,8 @@ dependencies {
   implementation platform('com.google.firebase:firebase-bom:30.4.0')
   implementation 'com.google.firebase:firebase-database-ktx'
 
+  // navigation
+  implementation "androidx.navigation:navigation-fragment-ktx:2.5.1"
+  implementation "androidx.navigation:navigation-ui-ktx:2.5.1"
 
 }
