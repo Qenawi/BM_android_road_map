@@ -20,6 +20,7 @@ class BoardAdapter(val onCellClick: (p1:BoardItem, p2:Int) -> Unit = {p1,p2->}) 
     parent: ViewGroup,
     viewType: Int
   ): BoardCellViewHolder {
+
     val ticTacCell =
       LayoutInflater.from(parent.context).inflate(R.layout.tic_tac_cell, parent, false)
       val holder = BoardCellViewHolder(ticTacCell)
@@ -36,7 +37,8 @@ class BoardAdapter(val onCellClick: (p1:BoardItem, p2:Int) -> Unit = {p1,p2->}) 
 
   class BoardCellViewHolder(ticTacCell: View) : RecyclerView.ViewHolder(ticTacCell) {
     private val cellText: TextView = ticTacCell.findViewById(R.id.cell)
-    fun bind(item: BoardItem) {
+    fun bind(item: BoardItem)
+    {
       cellText.text = item.player.playerMark
     }
   }

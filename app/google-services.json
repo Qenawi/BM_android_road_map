@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1084165318258",
+    "project_id": "qenawi-b8426",
+    "storage_bucket": "qenawi-b8426.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084165318258:android:b7b24f0eff7d7255bb04eb",
+        "android_client_info": {
+          "package_name": "com.example.android_internship_program"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084165318258-r8eou2rqrqbdr86cpp9s0fbo7cjoevn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5eLPcbsebICiSRMCDagVER_Sqwkd25YI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084165318258-r8eou2rqrqbdr86cpp9s0fbo7cjoevn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

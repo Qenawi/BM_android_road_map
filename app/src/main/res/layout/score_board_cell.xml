@@ -25,6 +25,7 @@
       android:background="@color/green"
       android:layout_height="match_parent"/>
   <TextView
+      android:id="@+id/winner_player"
       android:layout_gravity="center"
       android:textStyle="bold"
       android:textColor="@color/white"
@@ -43,6 +44,7 @@
       android:layout_height="match_parent"/>
 
   <TextView
+      android:id="@+id/win_time"
       android:layout_gravity="center"
       android:textStyle="bold"
       android:textColor="@color/white"
